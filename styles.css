@@ -1,19 +1,1 @@
 
-/* Your CSS Code here. */body { font-family: sans-serif; }
-        .divblock { 
-            border: 1px dashed #ccc; 
-            padding: 5px; 
-            margin-bottom: 15px; 
-        }
-        .divblock::before {
-            content: "divblock";
-            display: block;
-            font-size: 0.8em;
-            color: #888;
-        }
-        .inline-button, .inline-input, .inline-cite, .inline-code, .inline-sup, .inline-sub {
-            background-color: #e6f7ff;
-        }
-        .block-div, .block-p, .block-h1 {
-            background-color: #fff0f6;
-        }
